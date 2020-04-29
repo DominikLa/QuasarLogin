@@ -1,11 +1,11 @@
 <template>
-  <div class="justify-center items-center window-height row">
-    <div class="q-pa-md">
+  <div class="justify-center  row">
+    <div class="q-pa-lg">
       <div class="row justify-center">
         <h4>Login</h4>
       </div>
       <div class="row">
-        <q-card class="q-pa-md">
+        <q-card class="q-pa-lg">
           <div class="column">
             <q-form class="q-gutter-md">
               <input-field inputType="email" requiredInput></input-field>
@@ -37,9 +37,3 @@ export default {
   components: { InputField, CheckBox, SignIn, Register, SignInSocial }
 };
 </script>
-
-<style>
-.q-card {
-  width: 450px;
-}
-</style>
